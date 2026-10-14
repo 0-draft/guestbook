@@ -24,4 +24,23 @@ Leave a trace. If you visited, say hi. It takes 10 seconds.
 
 `.github/workflows/guestbook.yml` runs whenever an issue is opened whose title starts with `📮 [Guest Book]`. It hands the issue to `scripts/update_guestbook.py`, which escapes the message, adds it to the table between the two markers above, and keeps the newest 20. The workflow commits the README and closes the issue.
 
+## Your own
+
+Copy these three files into your repository, your profile repository included:
+
+- `.github/workflows/guestbook.yml`
+- `.github/ISSUE_TEMPLATE/guestbook.yml`
+- `scripts/update_guestbook.py`
+
+Then put the two markers where the table should go in your README, with a sign link above them that points at your repository:
+
+```markdown
+[Sign the guest book](https://github.com/OWNER/REPO/issues/new?template=guestbook.yml&title=%F0%9F%93%AE+%5BGuest+Book%5D)
+
+<!-- GUESTBOOK:START -->
+<!-- GUESTBOOK:END -->
+```
+
+The first entry fills in the table.
+
 Moved out of the [kanywst/kanywst](https://github.com/kanywst/kanywst) profile README on 2026-10-02, with the entries signed there.
