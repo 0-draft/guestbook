@@ -9,6 +9,7 @@ Environment:
   ISSUE_BODY   - issue body (GitHub's YAML form)
   ISSUE_USER   - who opened it
   ISSUE_NUMBER - issue number
+  GITHUB_REPOSITORY - owner/name, set by Actions; issue links point here
 """
 
 import os
@@ -17,7 +18,7 @@ import html
 from datetime import datetime, timezone
 
 README_PATH = "README.md"
-REPO = "0-draft/guestbook"
+REPO = os.environ.get("GITHUB_REPOSITORY", "0-draft/guestbook")
 MAX_ENTRIES = 20  # How many messages are shown.
 
 START_MARKER = "<!-- GUESTBOOK:START -->"
