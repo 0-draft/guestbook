@@ -14,6 +14,7 @@ Leave a trace. If you visited, say hi. It takes 10 seconds.
     </tr>
   </thead>
   <tbody>
+    <tr><td><code>2026-10-14</code></td><td><a href="https://github.com/kanywst">@kanywst</a></td><td><a href="https://github.com/0-draft/guestbook/issues/3">smoke test after the move to 0-draft 👋</a></td></tr>
     <tr><td><code>2026-03-23</code></td><td><a href="https://github.com/kanywst">@kanywst</a></td><td><a href="https://github.com/kanywst/kanywst/issues/2">‼️</a></td></tr>
   </tbody>
 </table>
