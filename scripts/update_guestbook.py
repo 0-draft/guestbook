@@ -107,8 +107,10 @@ def update_readme(new_row: str, issue_number: str) -> None:
 
     new_block = f"{START_MARKER}\n{build_table(all_rows)}\n{END_MARKER}"
     # Without the lambda, a \1 or \g written by a visitor is read as a
-    # replacement template and the script dies with re.PatternError.
-    updated = pattern.sub(lambda _: new_block, content)
+    # replacement template and the script dies with re.PatternError. count=1
+    # because the README also shows the markers in a setup example further
+    # down, and that copy is not the book.
+    updated = pattern.sub(lambda _: new_block, content, count=1)
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(updated)

@@ -39,20 +39,6 @@ Then put the two markers where the table should go in your README, with a sign l
 [Sign the guest book](https://github.com/OWNER/REPO/issues/new?template=guestbook.yml&title=%F0%9F%93%AE+%5BGuest+Book%5D)
 
 <!-- GUESTBOOK:START -->
-<table align="center">
-  <thead>
-    <tr>
-      <th>🕐</th>
-      <th>👤</th>
-      <th>💬</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td><code>2026-10-14</code></td><td><a href="https://github.com/kanywst">@kanywst</a></td><td><a href="https://github.com/0-draft/guestbook/issues/5">workflow no longer hardcodes the repo or branch</a></td></tr>
-    <tr><td><code>2026-10-14</code></td><td><a href="https://github.com/kanywst">@kanywst</a></td><td><a href="https://github.com/0-draft/guestbook/issues/3">smoke test after the move to 0-draft 👋</a></td></tr>
-    <tr><td><code>2026-03-23</code></td><td><a href="https://github.com/kanywst">@kanywst</a></td><td><a href="https://github.com/kanywst/kanywst/issues/2">‼️</a></td></tr>
-  </tbody>
-</table>
 <!-- GUESTBOOK:END -->
 ```
 
