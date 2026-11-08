@@ -1,5 +1,8 @@
 # Guestbook
 
+> [!WARNING]
+> **Retired on 2026-11-08, to be archived on or after 2026-12-08.** No one outside the author ever signed it since launch. New issues are no longer added to the book.
+
 Leave a trace. If you visited, say hi. It takes 10 seconds.
 
 [Sign the guest book](https://github.com/0-draft/guestbook/issues/new?template=guestbook.yml&title=%F0%9F%93%AE+%5BGuest+Book%5D). It opens a GitHub issue form with one field, and the message is added below automatically.
