@@ -1,7 +1,7 @@
 # Guestbook
 
 > [!WARNING]
-> **Retired on 2026-11-08, to be archived on or after 2026-12-08.** No one outside the author ever signed it since launch. New issues are no longer added to the book.
+> **Retired on 2026-11-08, to be archived on or after 2026-12-08.** Nobody but the author has ever signed it, here or in the profile README it started in. Its workflow is disabled, so a new entry is no longer added to the book.
 
 Leave a trace. If you visited, say hi. It takes 10 seconds.
 
