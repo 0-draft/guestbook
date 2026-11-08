@@ -1,8 +1,9 @@
 # Guestbook
 
-Leave a trace. If you visited, say hi. It takes 10 seconds.
+> [!WARNING]
+> **Retired on 2026-11-08, to be archived on or after 2026-12-08.** Nobody but the author has ever signed it, here or in the profile README it started in. Its workflow is disabled, so a new entry is no longer added to the book.
 
-[Sign the guest book](https://github.com/0-draft/guestbook/issues/new?template=guestbook.yml&title=%F0%9F%93%AE+%5BGuest+Book%5D). It opens a GitHub issue form with one field, and the message is added below automatically.
+A guest book that visitors signed by opening a GitHub issue form with one field; the message was added below automatically. The entries are kept as they stood when it was retired.
 
 <!-- GUESTBOOK:START -->
 <table align="center">
